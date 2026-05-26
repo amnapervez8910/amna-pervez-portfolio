@@ -17,6 +17,7 @@ body {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
+/* Light Mode - Fully Fixed */
 body.light-mode {
   background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
   color: #1a1a2e;
@@ -56,6 +57,119 @@ body.light-mode .course-card {
 body.light-mode .interest-tags span {
   background: rgba(108, 99, 255, 0.1);
   color: #1a1a2e;
+}
+
+/* Light mode text fixes - SAB KUCH VISIBLE */
+body.light-mode .hero-text h1,
+body.light-mode .hero-text h2,
+body.light-mode .hero-text p {
+  color: #1a1a2e;
+}
+
+body.light-mode .stat-label {
+  color: #555;
+}
+
+body.light-mode .stat-number {
+  background: linear-gradient(135deg, #6C63FF, #FF6584);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+body.light-mode .about-text p {
+  color: #1a1a2e;
+}
+
+body.light-mode .skill-card {
+  color: #1a1a2e;
+}
+
+body.light-mode .project-card p,
+body.light-mode .project-features li {
+  color: #333;
+}
+
+body.light-mode .project-card h3 {
+  color: #1a1a2e;
+}
+
+body.light-mode .course-card {
+  color: #1a1a2e;
+}
+
+body.light-mode .contact-detail a {
+  color: #1a1a2e;
+}
+
+body.light-mode .contact-detail h4 {
+  color: #666;
+}
+
+body.light-mode .learning-card p {
+  color: #444;
+}
+
+body.light-mode .learning-card h3 {
+  color: #1a1a2e;
+}
+
+body.light-mode .progress-label {
+  color: #6C63FF;
+}
+
+/* Project tech tags in light mode */
+body.light-mode .project-tech span {
+  background: rgba(108, 99, 255, 0.15);
+  color: #4a3fe0;
+}
+
+/* Report button in light mode */
+body.light-mode .btn-report {
+  background: rgba(108, 99, 255, 0.1);
+  color: #4a3fe0;
+  border-color: rgba(108, 99, 255, 0.3);
+}
+
+body.light-mode .btn-report:hover {
+  background: linear-gradient(135deg, #6C63FF, #FF6584);
+  color: white;
+}
+
+/* Footer in light mode */
+body.light-mode .footer {
+  background: #e8ecf1;
+  border-top-color: rgba(0, 0, 0, 0.05);
+}
+
+body.light-mode .footer p {
+  color: #555;
+}
+
+/* Hamburger menu light mode */
+body.light-mode .hamburger span {
+  background: #1a1a2e;
+}
+
+body.light-mode .nav-menu {
+  background: #ffffff;
+}
+
+/* Progress bar light mode */
+body.light-mode .progress-bar {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* Learning card light mode hover */
+body.light-mode .learning-card:hover {
+  background: #ffffff;
+  border-color: rgba(108, 99, 255, 0.3);
+}
+
+/* Project card light mode hover */
+body.light-mode .project-card:hover {
+  background: #ffffff;
+  border-color: rgba(108, 99, 255, 0.3);
 }
 
 ::-webkit-scrollbar {
@@ -158,10 +272,6 @@ body.light-mode .interest-tags span {
   background: #e0e0e0;
   transition: all 0.3s ease;
   border-radius: 3px;
-}
-
-body.light-mode .hamburger span {
-  background: #1a1a2e;
 }
 
 .theme-toggle {
@@ -561,10 +671,6 @@ section {
   color: #ffffff;
 }
 
-body.light-mode .learning-card h3 {
-  color: #1a1a2e;
-}
-
 .learning-card p {
   font-size: 0.8rem;
   color: #bbb;
@@ -590,18 +696,6 @@ body.light-mode .learning-card h3 {
 .progress-label {
   font-size: 0.7rem;
   color: #a98eff;
-}
-
-body.light-mode .learning-card {
-  background: #ffffff;
-}
-
-body.light-mode .progress-bar {
-  background: rgba(0, 0, 0, 0.1);
-}
-
-body.light-mode .progress-label {
-  color: #6C63FF;
 }
 
 .projects {
@@ -649,10 +743,6 @@ body.light-mode .progress-label {
   margin-bottom: 0.6rem;
   color: #ffffff;
   font-weight: 600;
-}
-
-body.light-mode .project-card h3 {
-  color: #1a1a2e;
 }
 
 .project-tech {
@@ -842,7 +932,6 @@ body.light-mode .project-card h3 {
     padding: 1.5rem 0;
     gap: 1rem;
   }
-  body.light-mode .nav-menu { background: #ffffff; }
   .nav-menu.active { left: 0; }
   .hero-text h1 { font-size: 1.8rem; }
   .profile-circle { width: 200px; height: 200px; }
