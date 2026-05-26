@@ -4,7 +4,7 @@
 This is my personal portfolio website showcasing my projects, skills, and courses as a BS Computer Science student at Fatima Jinnah Women University.
 
 ## 🌐 Live Demo
-[https://amnapervez.github.io/portfolio](https://amnapervez.github.io/portfolio)
+https://amnapervez8910.github.io/amna-pervez-portfolio/
 
 ## ✨ Features
 - 📱 Responsive Design
